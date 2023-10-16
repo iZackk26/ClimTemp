@@ -40,7 +40,7 @@ func init() {
 // fmt.Println(string(dataJson))
 func main() {
 	// Create a simple file server
-	http.Handle("/", http.FileServer(http.Dir("./public")))
+   	http.Handle("/", http.FileServer(http.Dir("./public")))
 	http.HandleFunc("/temperatures", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Access-Control-Allow-Origin", "*")
 		var data Data

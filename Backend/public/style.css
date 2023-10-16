@@ -1,0 +1,9 @@
+.navbar-brand img {
+    margin-right: 10px;
+}
+.navbar-brand {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
